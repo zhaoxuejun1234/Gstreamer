@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/gstreamer_01.dir/01_concepts.cpp.o  -o gstreamer_01 -lgstreamer-1.0 -lgobject-2.0 -lglib-2.0 
+/usr/bin/c++     CMakeFiles/gstreamer_01.dir/03_dynamic_pipline.cpp.o  -o gstreamer_01 -lgstreamer-1.0 -lgobject-2.0 -lglib-2.0 

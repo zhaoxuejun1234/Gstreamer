@@ -57,38 +57,38 @@ include CMakeFiles/gstreamer_01.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/gstreamer_01.dir/flags.make
 
-CMakeFiles/gstreamer_01.dir/01_concepts.cpp.o: CMakeFiles/gstreamer_01.dir/flags.make
-CMakeFiles/gstreamer_01.dir/01_concepts.cpp.o: ../01_concepts.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xuejun/C++Projects/Gstreamer/Basic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gstreamer_01.dir/01_concepts.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gstreamer_01.dir/01_concepts.cpp.o -c /home/xuejun/C++Projects/Gstreamer/Basic/01_concepts.cpp
+CMakeFiles/gstreamer_01.dir/03_dynamic_pipline.cpp.o: CMakeFiles/gstreamer_01.dir/flags.make
+CMakeFiles/gstreamer_01.dir/03_dynamic_pipline.cpp.o: ../03_dynamic_pipline.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xuejun/C++Projects/Gstreamer/Basic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gstreamer_01.dir/03_dynamic_pipline.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gstreamer_01.dir/03_dynamic_pipline.cpp.o -c /home/xuejun/C++Projects/Gstreamer/Basic/03_dynamic_pipline.cpp
 
-CMakeFiles/gstreamer_01.dir/01_concepts.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gstreamer_01.dir/01_concepts.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xuejun/C++Projects/Gstreamer/Basic/01_concepts.cpp > CMakeFiles/gstreamer_01.dir/01_concepts.cpp.i
+CMakeFiles/gstreamer_01.dir/03_dynamic_pipline.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gstreamer_01.dir/03_dynamic_pipline.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xuejun/C++Projects/Gstreamer/Basic/03_dynamic_pipline.cpp > CMakeFiles/gstreamer_01.dir/03_dynamic_pipline.cpp.i
 
-CMakeFiles/gstreamer_01.dir/01_concepts.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gstreamer_01.dir/01_concepts.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xuejun/C++Projects/Gstreamer/Basic/01_concepts.cpp -o CMakeFiles/gstreamer_01.dir/01_concepts.cpp.s
+CMakeFiles/gstreamer_01.dir/03_dynamic_pipline.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gstreamer_01.dir/03_dynamic_pipline.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xuejun/C++Projects/Gstreamer/Basic/03_dynamic_pipline.cpp -o CMakeFiles/gstreamer_01.dir/03_dynamic_pipline.cpp.s
 
-CMakeFiles/gstreamer_01.dir/01_concepts.cpp.o.requires:
+CMakeFiles/gstreamer_01.dir/03_dynamic_pipline.cpp.o.requires:
 
-.PHONY : CMakeFiles/gstreamer_01.dir/01_concepts.cpp.o.requires
+.PHONY : CMakeFiles/gstreamer_01.dir/03_dynamic_pipline.cpp.o.requires
 
-CMakeFiles/gstreamer_01.dir/01_concepts.cpp.o.provides: CMakeFiles/gstreamer_01.dir/01_concepts.cpp.o.requires
-	$(MAKE) -f CMakeFiles/gstreamer_01.dir/build.make CMakeFiles/gstreamer_01.dir/01_concepts.cpp.o.provides.build
-.PHONY : CMakeFiles/gstreamer_01.dir/01_concepts.cpp.o.provides
+CMakeFiles/gstreamer_01.dir/03_dynamic_pipline.cpp.o.provides: CMakeFiles/gstreamer_01.dir/03_dynamic_pipline.cpp.o.requires
+	$(MAKE) -f CMakeFiles/gstreamer_01.dir/build.make CMakeFiles/gstreamer_01.dir/03_dynamic_pipline.cpp.o.provides.build
+.PHONY : CMakeFiles/gstreamer_01.dir/03_dynamic_pipline.cpp.o.provides
 
-CMakeFiles/gstreamer_01.dir/01_concepts.cpp.o.provides.build: CMakeFiles/gstreamer_01.dir/01_concepts.cpp.o
+CMakeFiles/gstreamer_01.dir/03_dynamic_pipline.cpp.o.provides.build: CMakeFiles/gstreamer_01.dir/03_dynamic_pipline.cpp.o
 
 
 # Object files for target gstreamer_01
 gstreamer_01_OBJECTS = \
-"CMakeFiles/gstreamer_01.dir/01_concepts.cpp.o"
+"CMakeFiles/gstreamer_01.dir/03_dynamic_pipline.cpp.o"
 
 # External object files for target gstreamer_01
 gstreamer_01_EXTERNAL_OBJECTS =
 
-gstreamer_01: CMakeFiles/gstreamer_01.dir/01_concepts.cpp.o
+gstreamer_01: CMakeFiles/gstreamer_01.dir/03_dynamic_pipline.cpp.o
 gstreamer_01: CMakeFiles/gstreamer_01.dir/build.make
 gstreamer_01: CMakeFiles/gstreamer_01.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xuejun/C++Projects/Gstreamer/Basic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable gstreamer_01"
@@ -99,7 +99,7 @@ CMakeFiles/gstreamer_01.dir/build: gstreamer_01
 
 .PHONY : CMakeFiles/gstreamer_01.dir/build
 
-CMakeFiles/gstreamer_01.dir/requires: CMakeFiles/gstreamer_01.dir/01_concepts.cpp.o.requires
+CMakeFiles/gstreamer_01.dir/requires: CMakeFiles/gstreamer_01.dir/03_dynamic_pipline.cpp.o.requires
 
 .PHONY : CMakeFiles/gstreamer_01.dir/requires
 

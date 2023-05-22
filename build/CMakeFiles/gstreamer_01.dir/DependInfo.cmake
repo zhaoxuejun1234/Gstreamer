@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/xuejun/C++Projects/Gstreamer/Basic/01_concepts.cpp" "/home/xuejun/C++Projects/Gstreamer/Basic/build/CMakeFiles/gstreamer_01.dir/01_concepts.cpp.o"
+  "/home/xuejun/C++Projects/Gstreamer/Basic/03_dynamic_pipline.cpp" "/home/xuejun/C++Projects/Gstreamer/Basic/build/CMakeFiles/gstreamer_01.dir/03_dynamic_pipline.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/gstreamer_01.dir/01_concepts.cpp.o"
+  "CMakeFiles/gstreamer_01.dir/03_dynamic_pipline.cpp.o"
   "gstreamer_01.pdb"
   "gstreamer_01"
 )

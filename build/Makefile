@@ -123,32 +123,32 @@ gstreamer_01/fast:
 	$(MAKE) -f CMakeFiles/gstreamer_01.dir/build.make CMakeFiles/gstreamer_01.dir/build
 .PHONY : gstreamer_01/fast
 
-01_concepts.o: 01_concepts.cpp.o
+03_dynamic_pipline.o: 03_dynamic_pipline.cpp.o
 
-.PHONY : 01_concepts.o
+.PHONY : 03_dynamic_pipline.o
 
 # target to build an object file
-01_concepts.cpp.o:
-	$(MAKE) -f CMakeFiles/gstreamer_01.dir/build.make CMakeFiles/gstreamer_01.dir/01_concepts.cpp.o
-.PHONY : 01_concepts.cpp.o
+03_dynamic_pipline.cpp.o:
+	$(MAKE) -f CMakeFiles/gstreamer_01.dir/build.make CMakeFiles/gstreamer_01.dir/03_dynamic_pipline.cpp.o
+.PHONY : 03_dynamic_pipline.cpp.o
 
-01_concepts.i: 01_concepts.cpp.i
+03_dynamic_pipline.i: 03_dynamic_pipline.cpp.i
 
-.PHONY : 01_concepts.i
+.PHONY : 03_dynamic_pipline.i
 
 # target to preprocess a source file
-01_concepts.cpp.i:
-	$(MAKE) -f CMakeFiles/gstreamer_01.dir/build.make CMakeFiles/gstreamer_01.dir/01_concepts.cpp.i
-.PHONY : 01_concepts.cpp.i
+03_dynamic_pipline.cpp.i:
+	$(MAKE) -f CMakeFiles/gstreamer_01.dir/build.make CMakeFiles/gstreamer_01.dir/03_dynamic_pipline.cpp.i
+.PHONY : 03_dynamic_pipline.cpp.i
 
-01_concepts.s: 01_concepts.cpp.s
+03_dynamic_pipline.s: 03_dynamic_pipline.cpp.s
 
-.PHONY : 01_concepts.s
+.PHONY : 03_dynamic_pipline.s
 
 # target to generate assembly for a file
-01_concepts.cpp.s:
-	$(MAKE) -f CMakeFiles/gstreamer_01.dir/build.make CMakeFiles/gstreamer_01.dir/01_concepts.cpp.s
-.PHONY : 01_concepts.cpp.s
+03_dynamic_pipline.cpp.s:
+	$(MAKE) -f CMakeFiles/gstreamer_01.dir/build.make CMakeFiles/gstreamer_01.dir/03_dynamic_pipline.cpp.s
+.PHONY : 03_dynamic_pipline.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... gstreamer_01"
 	@echo "... edit_cache"
-	@echo "... 01_concepts.o"
-	@echo "... 01_concepts.i"
-	@echo "... 01_concepts.s"
+	@echo "... 03_dynamic_pipline.o"
+	@echo "... 03_dynamic_pipline.i"
+	@echo "... 03_dynamic_pipline.s"
 .PHONY : help
 
 
