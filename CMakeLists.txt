@@ -35,7 +35,7 @@ link_directories(
 # message("link path is"${GLIB_LIBRARY_DIRS},${GSTREAMER_LIBRARY_DIRS})
 message("library path is "${GSTREAMER_LIBRARIES})
 #building target executable
-add_executable(${PROJECT_NAME} 01_concepts.cpp)
+add_executable(${PROJECT_NAME} 03_dynamic_pipline.cpp)
 
 #linking Gstreamer library with target executable
 target_link_libraries(${PROJECT_NAME} ${GSTREAMER_LIBRARIES})
