@@ -1,3 +1,9 @@
+/*
+Reminder:
+(1)Pads got three Availabilities: Always,Sometimes,Request
+(2)You can use "gst-inspect-1.0"to look into the availability of element,element with availability 
+of "always" doesn't need get_pad operation  before link .
+*/
 #include <gst/gst.h>
 /*
 gst_element_facotry_find()+gst_element_factory_create() = gst_element_factory_make()
