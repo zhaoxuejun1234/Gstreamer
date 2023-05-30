@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/xuejun/C++Projects/Gstreamer/Basic/03_dynamic_pipline.cpp
+/home/xuejun/C++Projects/Gstreamer/Basic/05_multi_thread.c
 gst/gst.h
 -
 

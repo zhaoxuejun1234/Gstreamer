@@ -1,15 +1,15 @@
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
+  "C"
   )
 # The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/xuejun/C++Projects/Gstreamer/Basic/03_dynamic_pipline.cpp" "/home/xuejun/C++Projects/Gstreamer/Basic/build/CMakeFiles/gstreamer_01.dir/03_dynamic_pipline.cpp.o"
+set(CMAKE_DEPENDS_CHECK_C
+  "/home/xuejun/C++Projects/Gstreamer/Basic/05_multi_thread.c" "/home/xuejun/C++Projects/Gstreamer/Basic/build/CMakeFiles/gstreamer_01.dir/05_multi_thread.c.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
+set(CMAKE_C_TARGET_INCLUDE_PATH
   "/usr/include/gstreamer-1.0"
   "/usr/include/glib-2.0"
   "/usr/lib/x86_64-linux-gnu/glib-2.0/include"

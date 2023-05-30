@@ -123,32 +123,32 @@ gstreamer_01/fast:
 	$(MAKE) -f CMakeFiles/gstreamer_01.dir/build.make CMakeFiles/gstreamer_01.dir/build
 .PHONY : gstreamer_01/fast
 
-03_dynamic_pipline.o: 03_dynamic_pipline.cpp.o
+05_multi_thread.o: 05_multi_thread.c.o
 
-.PHONY : 03_dynamic_pipline.o
+.PHONY : 05_multi_thread.o
 
 # target to build an object file
-03_dynamic_pipline.cpp.o:
-	$(MAKE) -f CMakeFiles/gstreamer_01.dir/build.make CMakeFiles/gstreamer_01.dir/03_dynamic_pipline.cpp.o
-.PHONY : 03_dynamic_pipline.cpp.o
+05_multi_thread.c.o:
+	$(MAKE) -f CMakeFiles/gstreamer_01.dir/build.make CMakeFiles/gstreamer_01.dir/05_multi_thread.c.o
+.PHONY : 05_multi_thread.c.o
 
-03_dynamic_pipline.i: 03_dynamic_pipline.cpp.i
+05_multi_thread.i: 05_multi_thread.c.i
 
-.PHONY : 03_dynamic_pipline.i
+.PHONY : 05_multi_thread.i
 
 # target to preprocess a source file
-03_dynamic_pipline.cpp.i:
-	$(MAKE) -f CMakeFiles/gstreamer_01.dir/build.make CMakeFiles/gstreamer_01.dir/03_dynamic_pipline.cpp.i
-.PHONY : 03_dynamic_pipline.cpp.i
+05_multi_thread.c.i:
+	$(MAKE) -f CMakeFiles/gstreamer_01.dir/build.make CMakeFiles/gstreamer_01.dir/05_multi_thread.c.i
+.PHONY : 05_multi_thread.c.i
 
-03_dynamic_pipline.s: 03_dynamic_pipline.cpp.s
+05_multi_thread.s: 05_multi_thread.c.s
 
-.PHONY : 03_dynamic_pipline.s
+.PHONY : 05_multi_thread.s
 
 # target to generate assembly for a file
-03_dynamic_pipline.cpp.s:
-	$(MAKE) -f CMakeFiles/gstreamer_01.dir/build.make CMakeFiles/gstreamer_01.dir/03_dynamic_pipline.cpp.s
-.PHONY : 03_dynamic_pipline.cpp.s
+05_multi_thread.c.s:
+	$(MAKE) -f CMakeFiles/gstreamer_01.dir/build.make CMakeFiles/gstreamer_01.dir/05_multi_thread.c.s
+.PHONY : 05_multi_thread.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... gstreamer_01"
 	@echo "... edit_cache"
-	@echo "... 03_dynamic_pipline.o"
-	@echo "... 03_dynamic_pipline.i"
-	@echo "... 03_dynamic_pipline.s"
+	@echo "... 05_multi_thread.o"
+	@echo "... 05_multi_thread.i"
+	@echo "... 05_multi_thread.s"
 .PHONY : help
 
 
