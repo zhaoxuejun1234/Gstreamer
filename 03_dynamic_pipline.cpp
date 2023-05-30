@@ -1,3 +1,7 @@
+/*
+Reminder:
+(1)Understand the contribution and working mechanism of callback function in dynamic pipeline
+*/
 #include <gst/gst.h>
 /* Structure to contain all our information, so we can pass it to callbacks */
 typedef struct _CustomData {
