@@ -1,6 +1,8 @@
 /* 
-To compile this file, you need at least gst-inspect-1.0 --version>1.20 
-because of the reference "gst_element_request_pad_simple"
+Reminder:
+(1)To compile this file, you need at least gst-inspect-1.0 --version>1.20  because of the reference "gst_element_request_pad_simple"
+(2)Element "queue" is the key to realize multi-threading
+(3)Remember to release request pad after link operation
 */
 #include <gst/gst.h>
 
