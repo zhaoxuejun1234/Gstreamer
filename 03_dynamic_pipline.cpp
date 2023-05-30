@@ -1,6 +1,8 @@
 /*
 Reminder:
 (1)Understand the contribution and working mechanism of callback function in dynamic pipeline
+(2)"Sometimes Pads" is used in this example
+
 */
 #include <gst/gst.h>
 /* Structure to contain all our information, so we can pass it to callbacks */
