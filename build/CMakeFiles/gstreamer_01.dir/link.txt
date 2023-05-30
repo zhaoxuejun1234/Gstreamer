@@ -1,1 +1,0 @@
-/usr/bin/cc    CMakeFiles/gstreamer_01.dir/05_multi_thread.c.o  -o gstreamer_01 -lgstreamer-1.0 -lgobject-2.0 -lglib-2.0 

@@ -2,6 +2,8 @@
 Reminder:
 (1)Understand the contribution and working mechanism of callback function in dynamic pipeline
 (2)"Sometimes Pads" is used in this example
+(3)You can use "gst-inspect-1.0"to look into the availability of element,element with availability 
+of "always" doesn't need get_pad operation  before link .
 
 */
 #include <gst/gst.h>
