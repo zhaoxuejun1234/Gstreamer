@@ -1,6 +1,6 @@
 /*
 Reminder:
-(1)Basic elements: source,sink,pad,bin,bus,pipeline,msg
+(1)Basic elements: source,filters,sink,pad,bin,bus,pipeline,msg
 */
 #include <gst/gst.h>
 int main (int argc, char *argv[])
