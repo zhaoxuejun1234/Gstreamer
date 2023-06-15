@@ -20,6 +20,14 @@
  * DEALINGS IN THE SOFTWARE.
  */
 
+/*
+Reminder:
+Attention:Compile the file in Nvidia DeepStream SDK,this file only contains core code of deepstream test1 example.
+(1)An interesting usage of element "queue "is overlooked in 05_multi_thread.c,element "queue"
+not only can be used in multi-threading, but also can be used in data buffering. Data buffering 
+is usually considered when the source is from Internet and unstable, such as "delayed" (which is 
+not an uncommon situation at all on the Internet)
+*/
 #include <gst/gst.h>
 #include <glib.h>
 #include <stdio.h>
