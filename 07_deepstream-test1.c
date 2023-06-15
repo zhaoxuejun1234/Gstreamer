@@ -19,7 +19,17 @@
  * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
  * DEALINGS IN THE SOFTWARE.
  */
-
+/*
+Reminder:
+Attention:Compile the file in Nvidia DeepStream SDK,this file only contains core code of deepstream test1 example.
+(1)The whole pipeline can be observed in the directory "workspace/07_deepstream_test1",pics of this project
+is derived from https://zhuanlan.zhihu.com/p/359079725.
+(2)In addition to the basic pipeline construction of DeepStream, probe usage is another important
+feature should be awared.This probe is linked to the nvddsosd to provide info for osd.Callback func is
+used to achieve the probe.
+(3)Pic in the directory "workspace/07_Meta_data" provides an insight to the Meta_data.You
+should get to it before looking into the callback func osd_sink_pad_buffer_probe.
+*/
 #include <gst/gst.h>
 #include <glib.h>
 #include <stdio.h>
